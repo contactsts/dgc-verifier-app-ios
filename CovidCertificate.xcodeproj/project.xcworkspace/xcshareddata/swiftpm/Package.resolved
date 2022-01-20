@@ -1,0 +1,304 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ASN1Decoder",
+        "repositoryURL": "https://github.com/filom/ASN1Decoder",
+        "state": {
+          "branch": null,
+          "revision": "65953a42a0f039f53c73e48fd88c02809f7db607",
+          "version": "1.8.0"
+        }
+      },
+      {
+        "package": "base45-swift",
+        "repositoryURL": "https://github.com/ehn-digital-green-development/base45-swift",
+        "state": {
+          "branch": "main",
+          "revision": "b2fd6c1ff48f6ea1d2877368afd326700427f261",
+          "version": null
+        }
+      },
+      {
+        "package": "Cryptor",
+        "repositoryURL": "https://github.com/Kitura/BlueCryptor.git",
+        "state": {
+          "branch": null,
+          "revision": "ee5880e031da4c609f372cf7472476ab51d5dd19",
+          "version": "1.0.200"
+        }
+      },
+      {
+        "package": "CryptorECC",
+        "repositoryURL": "https://github.com/Kitura/BlueECC.git",
+        "state": {
+          "branch": null,
+          "revision": "baf6ed3fc1a622675f0041b4aff7c02dd1a93818",
+          "version": "1.2.200"
+        }
+      },
+      {
+        "package": "CryptorRSA",
+        "repositoryURL": "https://github.com/Kitura/BlueRSA.git",
+        "state": {
+          "branch": null,
+          "revision": "440f78db26d8bb073f29590f1c7bd31004da09ae",
+          "version": "1.0.201"
+        }
+      },
+      {
+        "package": "CertLogic",
+        "repositoryURL": "https://github.com/eu-digital-green-certificates/dgc-certlogic-ios",
+        "state": {
+          "branch": "main",
+          "revision": "5da95101196898090ef36e6189cb32f32b60ddc7",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftDGC",
+        "repositoryURL": "https://github.com/eu-digital-green-certificates/dgca-app-core-ios.git",
+        "state": {
+          "branch": "main",
+          "revision": "78f9a7fb0e63c0e0bb9d9b0dfed359babcc25960",
+          "version": null
+        }
+      },
+      {
+        "package": "Eureka",
+        "repositoryURL": "https://github.com/xmartlabs/Eureka.git",
+        "state": {
+          "branch": null,
+          "revision": "975e8d5e0ea3c86aff828537b2d4abe4430d6312",
+          "version": "5.3.4"
+        }
+      },
+      {
+        "package": "Gzip",
+        "repositoryURL": "https://github.com/1024jp/GzipSwift",
+        "state": {
+          "branch": null,
+          "revision": "ba0b6cb51cc6202f896e469b87d2889a46b10d1b",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "JSONSchema",
+        "repositoryURL": "https://github.com/eu-digital-green-certificates/JSONSchema.swift",
+        "state": {
+          "branch": "master",
+          "revision": "addef0a5c7ed181d877f1fdfde1e3fc1c6c28cfe",
+          "version": null
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "630cc7e82f2f0b4c6c3950e78c4b8b559008a023",
+          "version": "7.1.0"
+        }
+      },
+      {
+        "package": "KituraContracts",
+        "repositoryURL": "https://github.com/Kitura/KituraContracts.git",
+        "state": {
+          "branch": null,
+          "revision": "8418006e39e2efae9b31ae92721cb597ac29c617",
+          "version": "1.2.200"
+        }
+      },
+      {
+        "package": "LoggerAPI",
+        "repositoryURL": "https://github.com/Kitura/LoggerAPI.git",
+        "state": {
+          "branch": null,
+          "revision": "e82d34eab3f0b05391082b11ea07d3b70d2f65bb",
+          "version": "1.9.200"
+        }
+      },
+      {
+        "package": "LTHRadioButton",
+        "repositoryURL": "https://github.com/rolandleth/LTHRadioButton.git",
+        "state": {
+          "branch": "master",
+          "revision": "56ef3f3dfa5766e8b4d0c983d5e2f83a08f66daf",
+          "version": null
+        }
+      },
+      {
+        "package": "Networking",
+        "repositoryURL": "https://github.com/3lvis/Networking",
+        "state": {
+          "branch": null,
+          "revision": "dde4d21fcc774d988da1f842bc4582ce7f9593c2",
+          "version": "5.1.0"
+        }
+      },
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke.git",
+        "state": {
+          "branch": null,
+          "revision": "0db18dd34998cca18e9a28bcee136f84518007a0",
+          "version": "10.4.1"
+        }
+      },
+      {
+        "package": "PanModal",
+        "repositoryURL": "https://github.com/slackhq/PanModal.git",
+        "state": {
+          "branch": null,
+          "revision": "b012aecb6b67a8e46369227f893c12544846613f",
+          "version": "1.2.7"
+        }
+      },
+      {
+        "package": "PathKit",
+        "repositoryURL": "https://github.com/kylef/PathKit.git",
+        "state": {
+          "branch": null,
+          "revision": "3bfd2737b700b9a36565a8c94f4ad2b050a5e574",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "PryntTrimmerView",
+        "repositoryURL": "https://github.com/HHK1/PryntTrimmerView",
+        "state": {
+          "branch": null,
+          "revision": "ac1b60a22c7e6a6514de7a66d2f3d5b537c956d5",
+          "version": "4.0.2"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa.git",
+        "state": {
+          "branch": null,
+          "revision": "7ca0ce1dd58553d5be1ec9cc7283b068c256979d",
+          "version": "10.17.0"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "23f60515a00f076a9e3f2dc672fe1ae07601ee90",
+          "version": "11.4.1"
+        }
+      },
+      {
+        "package": "RxGesture",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxGesture.git",
+        "state": {
+          "branch": null,
+          "revision": "e29e65a58c2f670677d17df9a18e846b87e78592",
+          "version": "4.0.2"
+        }
+      },
+      {
+        "package": "RxRealm",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxRealm.git",
+        "state": {
+          "branch": null,
+          "revision": "d9e612a1bc3788c910b307e49093dec788d102df",
+          "version": "5.0.3"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
+          "version": "6.2.0"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "Spectre",
+        "repositoryURL": "https://github.com/kylef/Spectre.git",
+        "state": {
+          "branch": null,
+          "revision": "d02129a9af77729de049d328dd61e530b6f2bb2b",
+          "version": null
+        }
+      },
+      {
+        "package": "Stevia",
+        "repositoryURL": "https://github.com/freshOS/Stevia",
+        "state": {
+          "branch": null,
+          "revision": "e1e8dc40deab3a863a35a7a0aab10f7304f4b42a",
+          "version": "5.1.0"
+        }
+      },
+      {
+        "package": "SwiftJWT",
+        "repositoryURL": "https://github.com/Kitura/Swift-JWT.git",
+        "state": {
+          "branch": null,
+          "revision": "2f2fc12ae88660e0760b04d9e6c341517b31ad7b",
+          "version": "3.6.200"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+          "version": "1.4.2"
+        }
+      },
+      {
+        "package": "SwiftCBOR",
+        "repositoryURL": "https://github.com/eu-digital-green-certificates/SwiftCBOR",
+        "state": {
+          "branch": "master",
+          "revision": "0209a2d1a30b1b42334c4ad3f8bd221b977b2273",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftDate",
+        "repositoryURL": "https://github.com/malcommac/SwiftDate.git",
+        "state": {
+          "branch": null,
+          "revision": "6190d0cefff3013e77ed567e6b074f324e5c5bf5",
+          "version": "6.3.1"
+        }
+      },
+      {
+        "package": "SwipeCellKit",
+        "repositoryURL": "https://github.com/SwipeCellKit/SwipeCellKit",
+        "state": {
+          "branch": null,
+          "revision": "7219cad3098637176ace311510d11467dbfb9bb0",
+          "version": "2.7.1"
+        }
+      },
+      {
+        "package": "YPImagePicker",
+        "repositoryURL": "https://github.com/Yummypets/YPImagePicker.git",
+        "state": {
+          "branch": null,
+          "revision": "f12f5d3b31292da5966c08a4918a04959b3de63d",
+          "version": "5.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

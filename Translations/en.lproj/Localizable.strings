@@ -1,0 +1,522 @@
+//"hcert.err.crypto" = "CEVA";
+
+
+
+/*Android App Name*/
+"verifier_app_name" = "Covid Check";
+
+/*Title for the qr scanning screen*/
+"verifier_title_qr_scan" = "Verify";
+
+/*Titel über dem Haupttitel*/
+"verifier_homescreen_header_title" = "COVID certificate";
+
+/*Homescreen App Name*/
+"verifier_homescreen_title" = "Check";
+
+/*Beschreibung für Pager Bild 1*/
+"verifier_homescreen_pager_description_1" = "Scan presented certificate";
+
+/*Beschreibung für Pager Bild 2*/
+"verifier_homescreen_pager_description_2" = "Certificates are verified automatically";
+
+/*Homescreen Button für Scanning*/
+"verifier_homescreen_scan_button" = "Verify";
+
+
+/*Homescreen Button für Support*/
+"verifier_homescreen_support_button" = "How it works";
+"error_network_title" = "Network error";
+"error_network_text" = "Check your internet connection.";
+"error_action_retry" = "Try again";
+"error_camera_permission_title" = "No access to camera";
+"error_camera_permission_text" = "The app requires access to the camera to be able to scan the QR code.";
+"error_action_change_settings" = "Change settings";
+"error_title" = "Error";
+"qr_scanner_error" = "Invalid code";
+"ok_button" = "OK";
+"camera_permission_dialog_text" = "The app requires access to the camera to be able to scan the QR code.";
+"camera_permission_dialog_action" = "Allow access to camera";
+"verifier_qr_scanner_scan_qr_text" = "Scan QR code \nto verify";
+
+"verifier_qr_scanner_scan_qr_external" = "Choose country to verify against border business rules";
+"verifier_qr_scanner_scan_qr_internal" = "Verifying against domestic business rules";
+"verifier_qr_scanner_scan_qr_success" = "The test certificate is valid in accordance with applicable law";
+
+
+/*Titel auf dem Verifikations-Screen*/
+"covid_certificate_title" = "COVID certificate";
+
+/*Name des/der Zertifikatsinhabers/Zertifikatsinhaberin*/
+"verifier_covid_certificate_name" = "Last name";
+
+/*Geburtsdatum des/der Zertifikatsinhabers/Zertifikatsinhaberin*/
+"verifier_covid_certificate_birthdate" = "Date of birth";
+
+/*Titel bei erfolgreicher Prüfung*/
+"verifier_verify_success_title" = "Verification successful";
+
+/*Info Text bei erfolgreicher Prüfung*/
+"verifier_verify_success_info" = "Only valid in combination with \nan identity document";
+
+/*Prüfung loading text*/
+"verifier_verify_loading_text" = "Certificate is being verified";
+
+/*Fehler Title bei Prüfung*/
+"verifier_verify_error_title" = "COVID Certificate invalid";
+
+/*Fehler Infotext bei Prüfung (Nationale Regeln)*/
+"verifier_verify_error_info_for_national_rules" = "Does not meet Switzerland's validity criteria";
+
+
+
+
+
+"verifier_verify_error_info_for_certificate_invalid" = "The certificate is invalid";
+
+"verifier_verify_error_info_for_certificate_invalid_invalid_signature" = "The cryptographic signature is invalid (CS)";
+
+
+
+/*Fehler Infotext bei Prüfung (Blacklist)*/
+"verifier_verify_error_info_for_blacklist" = "The COVID certificate was revoked";
+
+
+"verifier_verify_error_info_for_certificate_with_invalid_rules" = "The certificate's content does not pass the business rules.";
+
+
+/*Fehler bei der geladen Liste*/
+"verifier_verify_error_list_title" = "Verification failed";
+
+
+/*Config: Titel wenn App muss geupdatet werden*/
+"force_update_title" = "Update required";
+
+/*Config: Text der angezeigt wird falls App muss geupdatet werden*/
+"force_update_text" = "Download the latest version of the app.";
+
+/*Config: Update Button Aktualisieren*/
+"force_update_button" = "Update";
+
+
+/*Unbekannter Fehler*/
+"unknown_error" = "An unknown error has occurred";
+
+/*Verifier: Die Gültigkeit des Zertifikat ist abgelaufen*/
+"verifier_verifiy_error_expired" = "The cryptographic signature is expired";
+
+
+"verifier_error_invalid_format" = "COVID certificate format invalid.";
+
+
+
+/*Verifier: Zertifikat ist erst gültig ab {DATE}*/
+"verifier_verifiy_error_notyetvalid" = "The certificate is not yet valid.";
+
+"verifier_verifiy_error_issuance_date_is_in_future" = "The certificate's date is in the future.";
+
+"verifier_verifiy_error_no_entries" = "No entries in the certificate.";
+
+"error_no_certificates_please_resync" = "No verification keys. Please sync from Settings";
+
+/*Verifier: Ein Netzwerkfehler ist aufgetreten.*/
+"verifier_retry_network_error" = "A network error has occurred";
+
+
+
+
+/*Header im "So funktionierts" Screen der Verifier-App*/
+"verifier_support_header" = "How it works";
+
+
+
+
+
+/*Verifier: Titel Fehler wenn kein Internet*/
+"verifier_offline_error_title" = "Offline verification not possible";
+
+/*Verifier: Fehlertext wenn Offline bei Verifikation*/
+"verifier_offline_error_text" = "An internet connection is required to update the checklists";
+
+/*Verifier: Fehler Titel bei Netzwerkfehler*/
+"verifier_network_error_title" = "Verification failed";
+
+
+
+/*Infotext bei erfolgreicher Prüfung (Blacklist)*/
+"verifier_verify_success_info_for_blacklist" = "Not revoked";
+
+/*Infotext bei erfolgreicher Prüfung (Zertifikat)*/
+"verifier_verify_success_info_for_certificate_valid" = "Signature valid";
+
+/*Teil der Fehlermeldung bei noch nicht/nicht mehr gültigem Zertifikat, der Bold sein sollte (ref. verifier_verifiy_error_expired und _notyetvalid)*/
+"verifier_verify_error_validity_range_bold" = "Does not meet Switzerland's validity criteria.";
+
+
+
+
+// ------------------------------------
+
+"accessibility_info_box" = "Informații";
+"accessibility_expandable_box_reduced_state" = "reduced";
+"accessibility_expandable_box_expanded_state" = "expanded";
+
+"accessibility_lamp_on_button" = "Turn on torch";
+"accessibility_lamp_off_button" = "Turn off torch";
+
+// ------------------------------------
+
+"back" = "Back";
+"close_button" = "Close";
+"continue_button" = "Next";
+"accept" = "Accept";
+
+"language_key" = "en";
+
+
+
+/*Einstellungen: Titel*/
+"settings_title" = "Settings";
+"settings_sync_with_server_title" = "Synchronize with the national backend";
+"settings_sync_with_server_description" = "Last updated";
+"settings_sync_date_rules" = "Rules";
+"settings_sync_date_countries" = "Countries";
+"settings_sync_date_value_sets" = "Value sets";
+"settings_sync_date_certificates" = "Keys";
+
+
+"settings_about_title" = "About";
+"settings_privacy" = "Privacy policy and terms of use";
+"settings_version" = "Version";
+"settings_pick_language" = "Select your language";
+
+
+"business_rules" = "Business rules";
+
+
+/*Einstellungen: Titel Sprachauswahl*/
+"language_title" = "Language";
+
+
+"certificate_test_target_agent" = "Targeted agent";
+
+"certificate_person_section_title" = "Person details";
+"certificate_person_first_name" = "First name";
+"certificate_person_last_name" = "Last name";
+"certificate_person_birthdate" = "Birth date";
+
+"certificate_type_vaccine" = "Vaccine";
+"certificate_type_recovery" = "Recovery";
+"certificate_type_test" = "Test";
+
+
+
+"certificate_recovery_section_title" = "Additional details";
+"certificate_recovery_targeted_agent" = "Disease or targeted agent";
+"certificate_recovery_first_result" = "Date of first positive test result";
+"certificate_recovery_state_of_test" = "Member State of test";
+"certificate_recovery_certificate_issuer" = "Certificate issuer";
+"certificate_recovery_valid_from" = "Certificate valid from";
+"certificate_recovery_valid_until" = "Certificate valid until (not more than 180 days after the date of first positive test result)";
+
+
+"certificate_test_section_title" = "Additional details";
+"certificate_test_targeted_agent" = "Disease or agent targeted";
+"certificate_test_type_of_test" = "Type of test";
+"certificate_test_name" = "Test name (optional for NAAT)";
+"certificate_test_manufacturer" = "Test manufacturer (optional for NAAT)";
+"certificate_test_date_sample_collection" = "Date and time of the test sample collection";
+"certificate_test_result" = "Result of the test";
+"certificate_test_testing_center" = "Testing centre of facility";
+"certificate_test_member_state" = "Member State of test";
+"certificate_test_certificate_issuer" = "Certificate issuer";
+
+
+"certificate_vaccine_section_title" = "Additional details";
+"certificate_vaccine_target_agent" = "Disease or targeted agent";
+"certificate_vaccine_prophylaxis" = "Vaccine / prophylaxis";
+"certificate_vaccine_vaccine_name" = "Vaccine medicinal product";
+"certificate_vaccine_authorization" = "Vaccine marketing authorisation holder or manufacturer";
+"certificate_vaccine_doses" = "Number in a series of vaccinations/doses and the overall number of doses in the series";
+"certificate_vaccine_vaccination_date" = "Date of vaccination";
+"certificate_vaccine_country" = "Member State of vaccination";
+"certificate_vaccine_issuer" = "Certificate issuer";
+
+
+"certificate_tehnical_section_title" = "Tehnical details";
+"certificate_tehnical_schema_version" = "Version schema";
+"certificate_tehnical_issuer" = "Issuer (iss)";
+"certificate_tehnical_issued_at" = "Issued at (iss)";
+"certificate_tehnical_expires_at" = "Experies at (exp)";
+"certificate_tehnical_uvci" = "Unique certificate identificator";
+
+
+"rules_list_title" = "Country rules";
+"rules_list_subtitle" = "rules";
+"rules_list_select_a_country" = "Select a country:";
+
+
+"rule_title_identifier" = "Identifier";
+"rule_title_certificate_type" = "Certificate type";
+"rule_title_description" = "Description";
+"rule_title_valid_from" = "Valid from";
+"rule_title_valid_to" = "Valid to";
+
+"country_picker_title" = "Select a country";
+"country_picker_search_placeholder" = "Type to search...";
+
+
+"certificate_result_segment_data" = "Certificate";
+"certificate_result_segment_rules" = "Rules";
+"certificate_result_segment_rules_national" = "National rules";
+
+"certificate_rules_title_external" = "(External rules)";
+"certificate_rules_title_internal" = "(Domestic rules)";
+"certificate_rules_status_passed" = "Passed";
+"certificate_rules_status_failed" = "Failed";
+"certificate_rules_section_rule" = "Rule";
+"certificate_rules_section_current" = "Current";
+
+
+"country_andorra" = "Andorra";
+"country_united_arab_emirates" = "United Arab Emirates";
+"country_afghanistan" = "Afghanistan";
+"country_antigua_and_barbuda" = "Antigua and Barbuda";
+"country_anguilla" = "Anguilla";
+"country_albania" = "Albania";
+"country_armenia" = "Armenia";
+"country_angola" = "Angola";
+"country_antarctica" = "Antarctica";
+"country_argentina" = "Argentina";
+"country_american_samoa" = "American Samoa";
+"country_austria" = "Austria";
+"country_australia" = "Australia";
+"country_aruba" = "Aruba";
+"country_aland_islands" = "Åland Islands";
+"country_azerbaijan" = "Azerbaijan";
+"country_bosnia_and_herzegovina" = "Bosnia And Herzegovina";
+"country_barbados" = "Barbados";
+"country_bangladesh" = "Bangladesh";
+"country_belgium" = "Belgium";
+"country_burkina_faso" = "Burkina Faso";
+"country_bulgaria" = "Bulgaria";
+"country_bahrain" = "Bahrain";
+"country_burundi" = "Burundi";
+"country_benin" = "Benin";
+"country_saint_barthelemy" = "Saint Barthélemy";
+"country_bermuda" = "Bermuda";
+"country_brunei_darussalam" = "Brunei Darussalam";
+"country_bolivia" = "Bolivia";
+"country_brazil" = "Brazil";
+"country_bahamas" = "Bahamas";
+"country_bhutan" = "Bhutan";
+"country_botswana" = "Botswana";
+"country_belarus" = "Belarus";
+"country_belize" = "Belize";
+"country_canada" = "Canada";
+"country_cocos" = "Cocos Islands";
+"country_congo_democratic_republic" = "Congo-Kinshasa";
+"country_central_african_republic" = "Central African Republic";
+"country_congo" = "Congo";
+"country_switzerland" = "Switzerland";
+"country_cote_divoire" = "Côte D\'ivoire";
+"country_cook_islands" = "Cook Islands";
+"country_chile" = "Chile";
+"country_cameroon" = "Cameroon";
+"country_china" = "China";
+"country_colombia" = "Colombia";
+"country_costa_rica" = "Costa Rica";
+"country_cuba" = "Cuba";
+"country_cape_verde" = "Cape Verde";
+"country_curaçao" = "Curaçao";
+"country_christmas_island" = "Christmas Island";
+"country_cyprus" = "Cyprus";
+"country_czech_republic" = "Czech Republic";
+"country_germany" = "Germany";
+"country_djibouti" = "Djibouti";
+"country_denmark" = "Denmark";
+"country_dominica" = "Dominica";
+"country_dominican_republic" = "Dominican Republic";
+"country_algeria" = "Algeria";
+"country_ecuador" = "Ecuador";
+"country_estonia" = "Estonia";
+"country_egypt" = "Egypt";
+"country_western_sahara" = "Western Sahara";
+"country_eritrea" = "Eritrea";
+"country_spain" = "Spain";
+"country_ethiopia" = "Ethiopia";
+"country_finland" = "Finland";
+"country_fiji" = "Fiji";
+"country_falkland_islands" = "Falkland Islands";
+"country_micronesia" = "Micronesia";
+"country_faroe_islands" = "Faroe Islands";
+"country_france" = "France";
+"country_gabon" = "Gabon";
+"country_united_kingdom" = "United Kingdom";
+"country_grenada" = "Grenada";
+"country_georgia" = "Georgia";
+"country_french_guyana" = "French Guyana";
+"country_ghana" = "Ghana";
+"country_gibraltar" = "Gibraltar";
+"country_greenland" = "Greenland";
+"country_gambia" = "Gambia";
+"country_guinea" = "Guinea";
+"country_guadeloupe" = "Guadeloupe";
+"country_equatorial_guinea" = "Equatorial Guinea";
+"country_greece" = "Greece";
+"country_guatemala" = "Guatemala";
+"country_guam" = "Guam";
+"country_guinea_bissau" = "Guinea-bissau";
+"country_guyana" = "Guyana";
+"country_hong_kong" = "Hong Kong";
+"country_honduras" = "Honduras";
+"country_croatia" = "Croatia";
+"country_haiti" = "Haiti";
+"country_hungary" = "Hungary";
+"country_indonesia" = "Indonesia";
+"country_ireland" = "Ireland";
+"country_israel" = "Israel";
+"country_isle_of_man" = "Isle Of Man";
+"country_iceland" = "Iceland";
+"country_india" = "India";
+"country_british_indian_ocean_territory" = "British Indian Ocean Territory";
+"country_iraq" = "Iraq";
+"country_iran" = "Iran";
+"country_italy" = "Italy";
+"country_jersey_" = "Jersey ";
+"country_jamaica" = "Jamaica";
+"country_jordan" = "Jordan";
+"country_japan" = "Japan";
+"country_kenya" = "Kenya";
+"country_kyrgyzstan" = "Kyrgyzstan";
+"country_cambodia" = "Cambodia";
+"country_kiribati" = "Kiribati";
+"country_comoros" = "Comoros";
+"country_saint_kitts_and_nevis" = "Saint Kitts and Nevis";
+"country_north_korea" = "North Korea";
+"country_south_korea" = "South Korea";
+"country_kuwait" = "Kuwait";
+"country_cayman_islands" = "Cayman Islands";
+"country_kazakhstan" = "Kazakhstan";
+"country_lao" = "Lao";
+"country_lebanon" = "Lebanon";
+"country_saint_lucia" = "Saint Lucia";
+"country_liechtenstein" = "Liechtenstein";
+"country_sri_lanka" = "Sri Lanka";
+"country_liberia" = "Liberia";
+"country_lesotho" = "Lesotho";
+"country_lithuania" = "Lithuania";
+"country_luxembourg" = "Luxembourg";
+"country_latvia" = "Latvia";
+"country_libya" = "Libya";
+"country_morocco" = "Morocco";
+"country_monaco" = "Monaco";
+"country_moldova" = "Moldova";
+"country_montenegro" = "Montenegro";
+"country_saint_martin" = "Saint Martin";
+"country_madagascar" = "Madagascar";
+"country_marshall_islands" = "Marshall Islands";
+"country_macedonia" = "Macedonia";
+"country_mali" = "Mali";
+"country_myanmar" = "Myanmar";
+"country_mongolia" = "Mongolia";
+"country_macau" = "Macau";
+"country_northern_mariana_islands" = "Northern Mariana Islands";
+"country_martinique" = "Martinique";
+"country_mauritania" = "Mauritania";
+"country_montserrat" = "Montserrat";
+"country_malta" = "Malta";
+"country_mauritius" = "Mauritius";
+"country_maldives" = "Maldives";
+"country_malawi" = "Malawi";
+"country_mexico" = "Mexico";
+"country_malaysia" = "Malaysia";
+"country_mozambique" = "Mozambique";
+"country_namibia" = "Namibia";
+"country_new_caledonia" = "New Caledonia";
+"country_niger" = "Niger";
+"country_norfolk_islands" = "Norfolk Islands";
+"country_nigeria" = "Nigeria";
+"country_nicaragua" = "Nicaragua";
+"country_netherlands" = "Netherlands";
+"country_norway" = "Norway";
+"country_nepal" = "Nepal";
+"country_nauru" = "Nauru";
+"country_niue" = "Niue";
+"country_new_zealand" = "New Zealand";
+"country_oman" = "Oman";
+"country_panama" = "Panama";
+"country_peru" = "Peru";
+"country_french_polynesia" = "French Polynesia";
+"country_papua_new_guinea" = "Papua New Guinea";
+"country_philippines" = "Philippines";
+"country_pakistan" = "Pakistan";
+"country_poland" = "Poland";
+"country_saint_pierre_and_miquelon" = "Saint Pierre And Miquelon";
+"country_pitcairn_islands" = "Pitcairn Islands";
+"country_puerto_rico" = "Puerto Rico";
+"country_palestine" = "Palestine";
+"country_portugal" = "Portugal";
+"country_palau" = "Palau";
+"country_paraguay" = "Paraguay";
+"country_qatar" = "Qatar";
+"country_reunion" = "Réunion";
+"country_romania" = "Romania";
+"country_serbia" = "Serbia";
+"country_russian_federation" = "Russian Federation";
+"country_rwanda" = "Rwanda";
+"country_saudi_arabia" = "Saudi Arabia";
+"country_solomon_islands" = "Solomon Islands";
+"country_seychelles" = "Seychelles";
+"country_sudan" = "Sudan";
+"country_sweden" = "Sweden";
+"country_singapore" = "Singapore";
+"country_saint_helena" = "Saint Helena";
+"country_slovenia" = "Slovenia";
+"country_slovakia" = "Slovakia";
+"country_sierra_leone" = "Sierra Leone";
+"country_san_marino" = "San Marino";
+"country_senegal" = "Senegal";
+"country_somalia" = "Somalia";
+"country_suriname" = "Suriname";
+"country_south_sudan" = "South Sudan";
+"country_sao_tome_and_principe" = "Sao Tome And Principe";
+"country_el_salvador" = "El Salvador";
+"country_sint_maarten" = "Sint Maarten";
+"country_syrian_arab_republic" = "Syrian Arab Republic";
+"country_swaziland" = "Swaziland";
+"country_turks_and_caicos_islands" = "Turks and Caicos Islands";
+"country_chad" = "Chad";
+"country_togo" = "Togo";
+"country_thailand" = "Thailand";
+"country_tajikistan" = "Tajikistan";
+"country_tokelau" = "Tokelau";
+"country_timor" = "Timor-leste";
+"country_turkmenistan" = "Turkmenistan";
+"country_tunisia" = "Tunisia";
+"country_tonga" = "Tonga";
+"country_turkey" = "Turkey";
+"country_trinidad_tobago" = "Trinidad &amp; Tobago";
+"country_tuvalu" = "Tuvalu";
+"country_taiwan" = "Taiwan";
+"country_tanzania" = "Tanzania";
+"country_ukraine" = "Ukraine";
+"country_uganda" = "Uganda";
+"country_united_states" = "United States of America";
+"country_uruguay" = "Uruguay";
+"country_uzbekistan" = "Uzbekistan";
+"country_vatican" = "Vatican";
+"country_saint_vincent" = "Saint Vincent &amp; The Grenadines";
+"country_venezuela" = "Venezuela";
+"country_british_virgin_islands" = "British Virgin Islands";
+"country_us_virgin_islands" = "US Virgin Islands";
+"country_vietnam" = "Vietnam";
+"country_vanuatu" = "Vanuatu";
+"country_wallis_and_futuna" = "Wallis And Futuna";
+"country_samoa" = "Samoa";
+"country_kosovo" = "Kosovo";
+"country_yemen" = "Yemen";
+"country_mayotte" = "Mayotte";
+"country_south_africa" = "South Africa";
+"country_zambia" = "Zambia";
+"country_zimbabwe" = "Zimbabwe";

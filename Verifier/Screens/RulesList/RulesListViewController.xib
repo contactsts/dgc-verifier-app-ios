@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RulesListViewController" customModule="CovidCertificateVerifier" customModuleProvider="target">
+            <connections>
+                <outlet property="countryPickerLabel" destination="AMf-6z-sKi" id="r9o-sY-QId"/>
+                <outlet property="countrySelectView" destination="Zne-uc-0KI" id="PeL-Uz-lWX"/>
+                <outlet property="tableView" destination="vpW-y3-f1a" id="tWP-aH-sng"/>
+                <outlet property="view" destination="iN0-l3-epB" id="aRO-2K-Gzp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ux-Ts-Mwl">
+                    <rect key="frame" x="0.0" y="44" width="414" height="20"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="NkV-rJ-X14"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alegere tara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMf-6z-sKi">
+                    <rect key="frame" x="20" y="80.5" width="79" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zne-uc-0KI" customClass="CountryPickerView" customModule="CovidCertificateVerifier" customModuleProvider="target">
+                    <rect key="frame" x="111" y="74" width="95.5" height="30"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="RUR-QT-pTp"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vpW-y3-f1a">
+                    <rect key="frame" x="8" y="112" width="398" height="770"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4Ux-Ts-Mwl" secondAttribute="trailing" id="1pr-w5-79I"/>
+                <constraint firstItem="vpW-y3-f1a" firstAttribute="top" secondItem="Zne-uc-0KI" secondAttribute="bottom" constant="8" symbolic="YES" id="701-KB-goC"/>
+                <constraint firstItem="4Ux-Ts-Mwl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="J4f-3n-sbl"/>
+                <constraint firstItem="4Ux-Ts-Mwl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="JQo-QZ-Ijb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vpW-y3-f1a" secondAttribute="trailing" constant="8" id="Li0-yW-JAA"/>
+                <constraint firstItem="vpW-y3-f1a" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="20" id="acq-mo-A68"/>
+                <constraint firstItem="AMf-6z-sKi" firstAttribute="centerY" secondItem="Zne-uc-0KI" secondAttribute="centerY" id="dbS-3g-3FZ"/>
+                <constraint firstItem="vpW-y3-f1a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="gHr-LA-J5r"/>
+                <constraint firstItem="AMf-6z-sKi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="uif-dy-8Gt"/>
+                <constraint firstItem="Zne-uc-0KI" firstAttribute="leading" secondItem="AMf-6z-sKi" secondAttribute="trailing" constant="12" id="vWy-as-i0m"/>
+                <constraint firstItem="Zne-uc-0KI" firstAttribute="top" secondItem="4Ux-Ts-Mwl" secondAttribute="bottom" constant="10" id="z1V-zl-rRW"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="69.642857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

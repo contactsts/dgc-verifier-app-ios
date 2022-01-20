@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EurekaBooleanCell" customModule="ScorePal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="126"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="E0K-Zb-bEG">
+                    <rect key="frame" x="16" y="16" width="363" height="94"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g13-Ys-CFC">
+                            <rect key="frame" x="0.0" y="38.5" width="335" height="17"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18B-Wl-8Kk">
+                                    <rect key="frame" x="0.0" y="0.0" width="335" height="17"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXm-Dp-xcj" customClass="LTHRadioButton" customModule="LTHRadioButton">
+                            <rect key="frame" x="343" y="37" width="20" height="20"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="qgc-y0-JX3"/>
+                                <constraint firstAttribute="width" constant="20" id="z31-kA-Krg"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="E0K-Zb-bEG" secondAttribute="trailing" constant="16" id="0jJ-QF-gGb"/>
+                <constraint firstItem="E0K-Zb-bEG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Llc-cX-fUh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="E0K-Zb-bEG" secondAttribute="bottom" constant="16" id="qRU-DZ-fVE"/>
+                <constraint firstItem="E0K-Zb-bEG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="yDB-oN-biF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="selectedRadioButton" destination="cXm-Dp-xcj" id="32S-Ys-T6W"/>
+                <outlet property="titleLabel" destination="18B-Wl-8Kk" id="JNt-QR-5XT"/>
+            </connections>
+            <point key="canvasLocation" x="123.91304347826087" y="-160.04464285714286"/>
+        </view>
+    </objects>
+</document>

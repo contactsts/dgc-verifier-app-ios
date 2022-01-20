@@ -1,0 +1,496 @@
+//"hcert.err.crypto" = "CEVA";
+
+
+
+
+/*Android App Name*/
+"verifier_app_name" = "Check DCC";
+
+/*Title for the qr scanning screen*/
+"verifier_title_qr_scan" = "Verificare";
+
+/*Titel über dem Haupttitel*/
+"verifier_homescreen_header_title" = "Certificat COVID";
+
+/*Homescreen App Name*/
+"verifier_homescreen_title" = "Verificare";
+
+/*Beschreibung für Pager Bild 1*/
+"verifier_homescreen_pager_description_1" = "Scanați certificatul prezentat";
+
+/*Beschreibung für Pager Bild 2*/
+"verifier_homescreen_pager_description_2" = "Certificatele sunt verificate automat";
+
+/*Homescreen Button für Scanning*/
+"verifier_homescreen_scan_button" = "Verificare";
+
+/*Homescreen Button für Support*/
+"verifier_homescreen_support_button" = "Cum funcționează";
+"error_network_title" = "Eroare de rețea";
+"error_network_text" = "Verificați conexiunea la internet.";
+"error_action_retry" = "Încercați din nou";
+"error_camera_permission_title" = "Nu exista acces la cameră";
+"error_camera_permission_text" = "Aplicația necesită acces la cameră pentru a scana coduri QR.";
+"error_action_change_settings" = "Schimbare setări";
+"error_title" = "Eroare";
+"qr_scanner_error" = "Cod invalid";
+"ok_button" = "OK";
+"camera_permission_dialog_text" = "Aplicația necesită acces la cameră pentru a scana coduri QR.";
+"camera_permission_dialog_action" = "Permiteți accesul la cameră";
+"verifier_qr_scanner_scan_qr_text" = "Scanați codul QR \npentru a-l verifica";
+
+"verifier_qr_scanner_scan_qr_external" = "Alegeți țara pentru verificare utilizând regulile naționale de frontieră";
+"verifier_qr_scanner_scan_qr_internal" = "Verificarea se realizează utilizând regulile interne";
+"verifier_qr_scanner_scan_qr_success" = "Certificatul de testare este valabil în conformitate cu legislația în vigoare";
+
+/*Titel auf dem Verifikations-Screen*/
+"covid_certificate_title" = "Certificat COVID";
+
+
+
+/*Titel bei erfolgreicher Prüfung*/
+"verifier_verify_success_title" = "Verificat cu succes";
+
+/*Info Text bei erfolgreicher Prüfung*/
+"verifier_verify_success_info" = "Valabil doar împreunp cu un document de identificare";
+
+/*Prüfung loading text*/
+"verifier_verify_loading_text" = "Certificatul este în curs de verificare";
+
+/*Fehler Title bei Prüfung*/
+"verifier_verify_error_title" = "Certificat invalid";
+
+"verifier_verify_error_info_for_certificate_invalid" = "Certificatul este invalid";
+
+
+"verifier_verify_error_info_for_certificate_invalid_invalid_signature" = "Semnătura criptografică este invalidă (CS)";
+
+
+"verifier_verify_error_info_for_blacklist" = "Certificatul a fost revocat";
+
+/*Fehler Infotext bei Prüfung (Blacklist)*/
+"verifier_verify_error_info_for_certificate_with_invalid_rules" = "Certificatul nu respectă regulile de verificare.";
+
+
+
+/*Fehler bei der geladen Liste*/
+"verifier_verify_error_list_title" = "Verificarea a eșuat";
+
+
+/*Config: Titel wenn App muss geupdatet werden*/
+"force_update_title" = "Actualizare necesară";
+
+/*Config: Text der angezeigt wird falls App muss geupdatet werden*/
+"force_update_text" = "Descărcați ultima versiune a aplicației";
+
+/*Config: Update Button Aktualisieren*/
+"force_update_button" = "Actualizare";
+
+
+/*Unbekannter Fehler*/
+"unknown_error" = "A apărut o eroare neașteptată";
+
+/*Verifier: Die Gültigkeit des Zertifikat ist abgelaufen*/
+"verifier_verifiy_error_expired" = "Semnătura criptografică este expirată.";
+
+"verifier_error_invalid_format" = "Formatul certificatului COVID este invalid";
+
+/*Verifier: Zertifikat ist erst gültig ab {DATE}*/
+"verifier_verifiy_error_notyetvalid" = "Certificatul nu este încă valabil";
+
+"verifier_verifiy_error_issuance_date_is_in_future" = "Data certificatului este în viitor";
+
+"verifier_verifiy_error_no_entries" = "Certificatul nu conține informații";
+
+"error_no_certificates_please_resync" = "Nu există chei de verificare. Vă rugăm să sincronizați din Setări.";
+
+
+
+/*Verifier: Ein Netzwerkfehler ist aufgetreten.*/
+"verifier_retry_network_error" = "A apărut o eroare de conexiune";
+
+
+
+
+
+/*Verifier: Titel Fehler wenn kein Internet*/
+"verifier_offline_error_title" = "Verificarea offline nu este posibilă";
+
+/*Verifier: Fehlertext wenn Offline bei Verifikation*/
+"verifier_offline_error_text" = "Este necesară o conexiune la internet pentru a actualiza datele";
+
+/*Verifier: Fehler Titel bei Netzwerkfehler*/
+"verifier_network_error_title" = "Verificare eșuată";
+
+
+
+"verifier_verify_success_info_for_blacklist" = "Nerevocat";
+
+/*Infotext bei erfolgreicher Prüfung (Zertifikat)*/
+"verifier_verify_success_info_for_certificate_valid" = "Semnătură validă";
+
+"verifier_verify_error_validity_range_bold" = "Intervalul certificatului nu este valid.";
+
+
+// ------------------------------------
+
+"accessibility_info_box" = "Information";
+"accessibility_expandable_box_reduced_state" = "redus";
+"accessibility_expandable_box_expanded_state" = "extins";
+
+"accessibility_lamp_on_button" = "Turn on torch";
+"accessibility_lamp_off_button" = "Turn off torch";
+
+// ------------------------------------
+
+"back" = "Înapoi";
+"close_button" = "Închide";
+"continue_button" = "Înainte";
+"accept" = "Acceptă";
+
+
+"language_key" = "ro";
+
+
+/*Einstellungen: Titel*/
+"settings_title" = "Setări";
+"settings_sync_with_server_title" = "Sincronizare cu backend național";
+"settings_sync_with_server_description" = "Ultima actualizare";
+"settings_sync_date_rules" = "Reguli";
+"settings_sync_date_countries" = "Țări";
+"settings_sync_date_value_sets" = "Valori";
+"settings_sync_date_certificates" = "Certificate";
+
+"settings_about_title" = "Despre";
+"settings_privacy" = "Confidențialitate, termeni și condiții";
+"settings_version" = "Versiune";
+"settings_pick_language" = "Selectați limba";
+
+
+
+
+"business_rules" = "Reguli";
+
+
+/*Einstellungen: Titel Sprachauswahl*/
+"language_title" = "Limba";
+
+
+"certificate_test_target_agent" = "Targeted agent";
+
+"certificate_person_section_title" = "Detalii persoana";
+"certificate_person_first_name" = "Prenume";
+"certificate_person_last_name" = "Nume";
+"certificate_person_birthdate" = "Zi de naștere";
+
+"certificate_type_vaccine" = "Vaccin";
+"certificate_type_recovery" = "Recuperare";
+"certificate_type_test" = "Test";
+
+
+"certificate_recovery_section_title" = "Detalii suplimentare";
+"certificate_recovery_targeted_agent" = "Boală sau agent vizat";
+"certificate_recovery_first_result" = "Data primului rezultat pozitiv al testului";
+"certificate_recovery_state_of_test" = "Statul membru al testului";
+"certificate_recovery_certificate_issuer" = "Emitent certificat";
+"certificate_recovery_valid_from" = "Certificat valabil de la";
+"certificate_recovery_valid_until" = "Certificat valabil până la (nu mai mult de 180 de zile de la data primului rezultat pozitiv al testului)";
+
+
+"certificate_test_section_title" = "Detalii suplimentare";
+"certificate_test_targeted_agent" = "Boală sau agent vizat";
+"certificate_test_type_of_test" = "Tipul testului";
+"certificate_test_name" = "Numele testului (opțional pentru NAAT)";
+"certificate_test_manufacturer" = "Producătorul testului (opțional pentru NAAT)";
+"certificate_test_date_sample_collection" = "Data și ora colectării probei de testare";
+"certificate_test_result" = "Rezultatul testului";
+"certificate_test_testing_center" = "Centrul sau instalația de testare";
+"certificate_test_member_state" = "Statul membru al testului";
+"certificate_test_certificate_issuer" = "Emitent certificat";
+
+
+"certificate_vaccine_section_title" = "Detalii suplimentare";
+"certificate_vaccine_target_agent" = "Boală sau agent vizat";
+"certificate_vaccine_prophylaxis" = "Vaccin/profilaxie";
+"certificate_vaccine_vaccine_name" = "Vaccin";
+"certificate_vaccine_authorization" = "Titularul autorizației de introducere pe piață sau producătorul vaccinului";
+"certificate_vaccine_doses" = "Numărul dintr-o serie de vaccinări / doze și numărul total de doze din serie";
+"certificate_vaccine_vaccination_date" = "Data vaccinării";
+"certificate_vaccine_country" = "Statul membru de vaccinare";
+"certificate_vaccine_issuer" = "Emitent certificat";
+
+
+"certificate_tehnical_section_title" = "Detalii tehnice";
+"certificate_tehnical_schema_version" = "Versiunea schemei";
+"certificate_tehnical_issuer" = "Emitent (iss)";
+"certificate_tehnical_issued_at" = "Hcert emis la (iat)";
+"certificate_tehnical_expires_at" = "Hcert expiră la (exp)";
+"certificate_tehnical_uvci" = "Identificator unic al certificatului";
+
+"rules_list_title" = "Reguli țări";
+"rules_list_subtitle" = "reguli";
+"rules_list_select_a_country" = "Alegeți o țară:";
+
+"country_picker_title" = "Alegeți o țară";
+"country_picker_search_placeholder" = "Tastați pentru a căuta...";
+
+"rule_title_identifier" = "Identificator";
+"rule_title_certificate_type" = "Tip certificat";
+"rule_title_description" = "Descriere";
+"rule_title_valid_from" = "Valid de la";
+"rule_title_valid_to" = "Valid pana la";
+
+"certificate_result_segment_data" = "Certificat";
+"certificate_result_segment_rules" = "Reguli";
+"certificate_result_segment_rules_national" = "Reguli naționale";
+
+"certificate_rules_title_external" = "(Reguli externe)";
+"certificate_rules_title_internal" = "(Reguli interne)";
+"certificate_rules_status_passed" = "Success";
+"certificate_rules_status_failed" = "Eroare";
+"certificate_rules_section_rule" = "Regula";
+"certificate_rules_section_current" = "Curent";
+
+
+"country_andorra" = "Andorra";
+"country_united_arab_emirates" = "United Arab Emirates";
+"country_afghanistan" = "Afghanistan";
+"country_antigua_and_barbuda" = "Antigua and Barbuda";
+"country_anguilla" = "Anguilla";
+"country_albania" = "Albania";
+"country_armenia" = "Armenia";
+"country_angola" = "Angola";
+"country_antarctica" = "Antarctica";
+"country_argentina" = "Argentina";
+"country_american_samoa" = "American Samoa";
+"country_austria" = "Austria";
+"country_australia" = "Australia";
+"country_aruba" = "Aruba";
+"country_aland_islands" = "Åland Islands";
+"country_azerbaijan" = "Azerbaijan";
+"country_bosnia_and_herzegovina" = "Bosnia And Herzegovina";
+"country_barbados" = "Barbados";
+"country_bangladesh" = "Bangladesh";
+"country_belgium" = "Belgium";
+"country_burkina_faso" = "Burkina Faso";
+"country_bulgaria" = "Bulgaria";
+"country_bahrain" = "Bahrain";
+"country_burundi" = "Burundi";
+"country_benin" = "Benin";
+"country_saint_barthelemy" = "Saint Barthélemy";
+"country_bermuda" = "Bermuda";
+"country_brunei_darussalam" = "Brunei Darussalam";
+"country_bolivia" = "Bolivia";
+"country_brazil" = "Brazil";
+"country_bahamas" = "Bahamas";
+"country_bhutan" = "Bhutan";
+"country_botswana" = "Botswana";
+"country_belarus" = "Belarus";
+"country_belize" = "Belize";
+"country_canada" = "Canada";
+"country_cocos" = "Cocos Islands";
+"country_congo_democratic_republic" = "Congo-Kinshasa";
+"country_central_african_republic" = "Central African Republic";
+"country_congo" = "Congo";
+"country_switzerland" = "Switzerland";
+"country_cote_divoire" = "Côte D\'ivoire";
+"country_cook_islands" = "Cook Islands";
+"country_chile" = "Chile";
+"country_cameroon" = "Cameroon";
+"country_china" = "China";
+"country_colombia" = "Colombia";
+"country_costa_rica" = "Costa Rica";
+"country_cuba" = "Cuba";
+"country_cape_verde" = "Cape Verde";
+"country_curaçao" = "Curaçao";
+"country_christmas_island" = "Christmas Island";
+"country_cyprus" = "Cyprus";
+"country_czech_republic" = "Czech Republic";
+"country_germany" = "Germany";
+"country_djibouti" = "Djibouti";
+"country_denmark" = "Denmark";
+"country_dominica" = "Dominica";
+"country_dominican_republic" = "Dominican Republic";
+"country_algeria" = "Algeria";
+"country_ecuador" = "Ecuador";
+"country_estonia" = "Estonia";
+"country_egypt" = "Egypt";
+"country_western_sahara" = "Western Sahara";
+"country_eritrea" = "Eritrea";
+"country_spain" = "Spain";
+"country_ethiopia" = "Ethiopia";
+"country_finland" = "Finland";
+"country_fiji" = "Fiji";
+"country_falkland_islands" = "Falkland Islands";
+"country_micronesia" = "Micronesia";
+"country_faroe_islands" = "Faroe Islands";
+"country_france" = "France";
+"country_gabon" = "Gabon";
+"country_united_kingdom" = "United Kingdom";
+"country_grenada" = "Grenada";
+"country_georgia" = "Georgia";
+"country_french_guyana" = "French Guyana";
+"country_ghana" = "Ghana";
+"country_gibraltar" = "Gibraltar";
+"country_greenland" = "Greenland";
+"country_gambia" = "Gambia";
+"country_guinea" = "Guinea";
+"country_guadeloupe" = "Guadeloupe";
+"country_equatorial_guinea" = "Equatorial Guinea";
+"country_greece" = "Greece";
+"country_guatemala" = "Guatemala";
+"country_guam" = "Guam";
+"country_guinea_bissau" = "Guinea-bissau";
+"country_guyana" = "Guyana";
+"country_hong_kong" = "Hong Kong";
+"country_honduras" = "Honduras";
+"country_croatia" = "Croatia";
+"country_haiti" = "Haiti";
+"country_hungary" = "Hungary";
+"country_indonesia" = "Indonesia";
+"country_ireland" = "Ireland";
+"country_israel" = "Israel";
+"country_isle_of_man" = "Isle Of Man";
+"country_iceland" = "Iceland";
+"country_india" = "India";
+"country_british_indian_ocean_territory" = "British Indian Ocean Territory";
+"country_iraq" = "Iraq";
+"country_iran" = "Iran";
+"country_italy" = "Italy";
+"country_jersey_" = "Jersey ";
+"country_jamaica" = "Jamaica";
+"country_jordan" = "Jordan";
+"country_japan" = "Japan";
+"country_kenya" = "Kenya";
+"country_kyrgyzstan" = "Kyrgyzstan";
+"country_cambodia" = "Cambodia";
+"country_kiribati" = "Kiribati";
+"country_comoros" = "Comoros";
+"country_saint_kitts_and_nevis" = "Saint Kitts and Nevis";
+"country_north_korea" = "North Korea";
+"country_south_korea" = "South Korea";
+"country_kuwait" = "Kuwait";
+"country_cayman_islands" = "Cayman Islands";
+"country_kazakhstan" = "Kazakhstan";
+"country_lao" = "Lao";
+"country_lebanon" = "Lebanon";
+"country_saint_lucia" = "Saint Lucia";
+"country_liechtenstein" = "Liechtenstein";
+"country_sri_lanka" = "Sri Lanka";
+"country_liberia" = "Liberia";
+"country_lesotho" = "Lesotho";
+"country_lithuania" = "Lithuania";
+"country_luxembourg" = "Luxembourg";
+"country_latvia" = "Latvia";
+"country_libya" = "Libya";
+"country_morocco" = "Morocco";
+"country_monaco" = "Monaco";
+"country_moldova" = "Moldova";
+"country_montenegro" = "Montenegro";
+"country_saint_martin" = "Saint Martin";
+"country_madagascar" = "Madagascar";
+"country_marshall_islands" = "Marshall Islands";
+"country_macedonia" = "Macedonia";
+"country_mali" = "Mali";
+"country_myanmar" = "Myanmar";
+"country_mongolia" = "Mongolia";
+"country_macau" = "Macau";
+"country_northern_mariana_islands" = "Northern Mariana Islands";
+"country_martinique" = "Martinique";
+"country_mauritania" = "Mauritania";
+"country_montserrat" = "Montserrat";
+"country_malta" = "Malta";
+"country_mauritius" = "Mauritius";
+"country_maldives" = "Maldives";
+"country_malawi" = "Malawi";
+"country_mexico" = "Mexico";
+"country_malaysia" = "Malaysia";
+"country_mozambique" = "Mozambique";
+"country_namibia" = "Namibia";
+"country_new_caledonia" = "New Caledonia";
+"country_niger" = "Niger";
+"country_norfolk_islands" = "Norfolk Islands";
+"country_nigeria" = "Nigeria";
+"country_nicaragua" = "Nicaragua";
+"country_netherlands" = "Netherlands";
+"country_norway" = "Norway";
+"country_nepal" = "Nepal";
+"country_nauru" = "Nauru";
+"country_niue" = "Niue";
+"country_new_zealand" = "New Zealand";
+"country_oman" = "Oman";
+"country_panama" = "Panama";
+"country_peru" = "Peru";
+"country_french_polynesia" = "French Polynesia";
+"country_papua_new_guinea" = "Papua New Guinea";
+"country_philippines" = "Philippines";
+"country_pakistan" = "Pakistan";
+"country_poland" = "Poland";
+"country_saint_pierre_and_miquelon" = "Saint Pierre And Miquelon";
+"country_pitcairn_islands" = "Pitcairn Islands";
+"country_puerto_rico" = "Puerto Rico";
+"country_palestine" = "Palestine";
+"country_portugal" = "Portugal";
+"country_palau" = "Palau";
+"country_paraguay" = "Paraguay";
+"country_qatar" = "Qatar";
+"country_reunion" = "Réunion";
+"country_romania" = "Romania";
+"country_serbia" = "Serbia";
+"country_russian_federation" = "Russian Federation";
+"country_rwanda" = "Rwanda";
+"country_saudi_arabia" = "Saudi Arabia";
+"country_solomon_islands" = "Solomon Islands";
+"country_seychelles" = "Seychelles";
+"country_sudan" = "Sudan";
+"country_sweden" = "Sweden";
+"country_singapore" = "Singapore";
+"country_saint_helena" = "Saint Helena";
+"country_slovenia" = "Slovenia";
+"country_slovakia" = "Slovakia";
+"country_sierra_leone" = "Sierra Leone";
+"country_san_marino" = "San Marino";
+"country_senegal" = "Senegal";
+"country_somalia" = "Somalia";
+"country_suriname" = "Suriname";
+"country_south_sudan" = "South Sudan";
+"country_sao_tome_and_principe" = "Sao Tome And Principe";
+"country_el_salvador" = "El Salvador";
+"country_sint_maarten" = "Sint Maarten";
+"country_syrian_arab_republic" = "Syrian Arab Republic";
+"country_swaziland" = "Swaziland";
+"country_turks_and_caicos_islands" = "Turks and Caicos Islands";
+"country_chad" = "Chad";
+"country_togo" = "Togo";
+"country_thailand" = "Thailand";
+"country_tajikistan" = "Tajikistan";
+"country_tokelau" = "Tokelau";
+"country_timor" = "Timor-leste";
+"country_turkmenistan" = "Turkmenistan";
+"country_tunisia" = "Tunisia";
+"country_tonga" = "Tonga";
+"country_turkey" = "Turkey";
+"country_trinidad_tobago" = "Trinidad &amp; Tobago";
+"country_tuvalu" = "Tuvalu";
+"country_taiwan" = "Taiwan";
+"country_tanzania" = "Tanzania";
+"country_ukraine" = "Ukraine";
+"country_uganda" = "Uganda";
+"country_united_states" = "United States of America";
+"country_uruguay" = "Uruguay";
+"country_uzbekistan" = "Uzbekistan";
+"country_vatican" = "Vatican";
+"country_saint_vincent" = "Saint Vincent &amp; The Grenadines";
+"country_venezuela" = "Venezuela";
+"country_british_virgin_islands" = "British Virgin Islands";
+"country_us_virgin_islands" = "US Virgin Islands";
+"country_vietnam" = "Vietnam";
+"country_vanuatu" = "Vanuatu";
+"country_wallis_and_futuna" = "Wallis And Futuna";
+"country_samoa" = "Samoa";
+"country_kosovo" = "Kosovo";
+"country_yemen" = "Yemen";
+"country_mayotte" = "Mayotte";
+"country_south_africa" = "South Africa";
+"country_zambia" = "Zambia";
+"country_zimbabwe" = "Zimbabwe";

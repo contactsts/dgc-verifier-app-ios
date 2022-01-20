@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DatePickerVC" customModule="ScorePal" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="oCE-sL-1nK" id="Xg2-bK-WLK"/>
+                <outlet property="doneButton" destination="MEk-vd-8Qx" id="jgO-Ob-6wN"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ERS-Lc-7Sn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="326"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdi-pD-z9w">
+                    <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEk-vd-8Qx">
+                            <rect key="frame" x="357" y="10" width="37" height="30"/>
+                            <state key="normal" title="Done"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="MEk-vd-8Qx" firstAttribute="centerY" secondItem="vdi-pD-z9w" secondAttribute="centerY" id="Lfe-sB-fhc"/>
+                        <constraint firstAttribute="trailing" secondItem="MEk-vd-8Qx" secondAttribute="trailing" constant="20" id="RXB-g3-YJw"/>
+                        <constraint firstAttribute="height" constant="50" id="rC3-nv-v9X"/>
+                    </constraints>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="oCE-sL-1nK">
+                    <rect key="frame" x="0.0" y="100" width="414" height="226"/>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="oCE-sL-1nK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Dd5-Ra-a38"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vdi-pD-z9w" secondAttribute="trailing" id="FR0-VG-OCT"/>
+                <constraint firstItem="vdi-pD-z9w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="JWB-G3-0HZ"/>
+                <constraint firstItem="vdi-pD-z9w" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="MKc-7D-mlM"/>
+                <constraint firstItem="oCE-sL-1nK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="W4O-bU-B5S"/>
+                <constraint firstItem="oCE-sL-1nK" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="dQ7-ku-ffX"/>
+                <constraint firstItem="oCE-sL-1nK" firstAttribute="top" secondItem="vdi-pD-z9w" secondAttribute="bottom" constant="6" id="wHr-Pk-QTL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="54.910714285714285"/>
+        </view>
+    </objects>
+</document>
